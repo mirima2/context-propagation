@@ -1,0 +1,246 @@
+from mongo_connector import *
+from resolver import Resolvers
+import re
+from Queue import Queue
+from threading import Thread, Lock
+import logging
+
+
+class Worker(Thread):
+    def __init__(self, dic = {}):  # ,collection_name):
+        Thread.__init__(self)
+        self.resolved_pids = dic
+        # self.diff_arxiv = {}
+        # self.diff_pubmed = {}
+        self.mongo_db = MongoConnector("146.48.87.96", "DLIDB")
+        self.resolving = ['doi', 'arxiv', 'handle', 'pmid', 'url', 'urn']
+        self.r = Resolvers()
+        self.fout = None
+        self.worker_number = -1
+        self.number_of_workers = -1
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.ERROR)
+        self.logger.addHandler(logging.FileHandler('paralleldc2mongoerror.log'))
+
+    def resolver(self,doi,relation_type):
+
+        # print "resolving... " , doi
+        # print "dli..."
+        # self.fout.write("resolving... " + doi)
+        provenance = []
+        title, abstract, typology = self.r.resolverdli(doi)
+        if title != []:
+            provenance.append("dli")
+            self.fout.write("resolved by dli \n")
+            self.fout.write("typology : " + typology + "\n")
+        if abstract == []:
+            #   print "datacite ..."
+            self.fout.write("abstract = [] trying with datacite \n")
+            dt, da, dp = self.r.resolvedatacite(doi)
+            if title == []:
+                title = dt
+            abstract = da
+            if typology == '':
+                typology = dp
+            if dt != []:
+                provenance.append("datacite")
+            try:
+                typology = typology.lower()
+            except:
+                print "errore ", doi
+                return False
+                #sys.exit()
+            self.fout.write("typology : " + typology + "\n")
+
+            if (typology == '' or (typology != 'dataset' and typology != 'collection') and abstract == [] ):
+                dt, da, dp = self.r.resolvecrossref(doi)
+                if title == []:
+                    title = dt
+                if typology == '':
+                    typology = dp
+                if dt != []:
+                    provenance.append("crossref")
+                    #        print "typology ", typology
+
+            if (typology == '' and abstract==[]):
+                #       print "openaire publications...."
+                dt, da, dp = self.r.resolveopenaireindex(doi)
+                if title == []:
+                    title = dt
+                abstract = da
+                if typology == '':
+                    typology = dp
+                if dt != []:
+                    provenance.append("openaire")
+
+            # if (typology == 'dataset' or typology == '' or typology == 'collection') and abstract == []:
+            #     #       print "openaire datasets...."
+            #     dt, da, dp = self.r.resolveopenaire(doi, 'dataset')
+            #     if title == []:
+            #         title = dt
+            #     abstract = da
+            #     if typology == '':
+            #         typology = dp
+            #     if dt != []:
+            #         provenance.append("openaire")
+
+        # if abstract != [] or title != []:
+        #     self.fout.write("writing in mongo ")
+        #     #pid, typology, abstracts, title, pid_type, provenance, coll_number = -1
+        #     self.mongo_db.writeDocument(pid = doi, typology = typology, abstracsts= abstract, title=title, pid_type="doi", provenance=provenance,relation_type = relation_type,coll_number=self.worker_number)
+        #     resolved = +1
+        #     self.fout.write("doi resolved \n")
+        #     return True
+        #
+        # self.fout.write("doi not resolved \n")
+        # return False
+        return title, abstract, typology, provenance
+
+
+    def resolve(self,rels,from_id):
+        p = re.compile('(10[.][0-9]{4,}[^\s"/<>]*/[^\s"<>]+)')
+        okrels = []
+        title = []
+        abstract = []
+        typology = ''
+        provenance = []
+
+        for rel in rels:
+            try:
+                id_type = rel['relatedIdentifierType']
+                if not id_type is None:
+                    id_type = id_type.strip().lower()
+                relation_type = rel['relation_type']
+                if relation_type is not None:
+                    relation_type = relation_type.strip().lower()
+
+                self.fout.write("relation.relatedIdentifierType : %s \n" %id_type)
+                self.fout.write("relation.relationType : %s \n" % relation_type)
+                if not id_type in self.resolving:
+                    self.fout.write("Id type %s not in the resolving set \n"%id_type)
+                    continue
+                pid = rel['relatedIdentifierValue']
+
+                # print pid
+                # print id_type
+
+                if pid is None:
+                    self.fout.write("No pid provided \n")
+                    continue
+                pid = pid.strip().lower()
+                if id_type == 'handle' or id_type == 'url' or id_type == 'urn':
+                    # vedo se e' un doi
+                    m = re.search('(10[.][0-9]{4,}[^\s"/<>]*/[^\s"<>]+)', pid)
+                    # print "id_type ", id_type
+                    # print "pid ", pid
+                    if m is None:
+                        continue
+
+                    id_type = "doi"
+                    pid = m.group()
+                        # print "new pid ", pid
+                pid = pid.encode('utf-8', 'ignore')
+
+                if id_type == 'doi':
+                    doi = pid
+                    if (doi[:4] == 'doi:'):
+                        doi = pid[4:]
+
+                    if (p.match(doi)):
+                        try:
+                            self.fout.write( "resolving doi %s...\n"%doi)
+                        except:
+                            self.fout.write("resolving doi ...")
+                        if doi in self.resolved_pids:
+                            if self.resolved_pids[doi] == 1:
+                                okrels.append(rel)
+                            continue
+
+                        title, abstract, typology, provenance = self.resolver(doi,from_id)
+
+                elif id_type == 'arxiv':
+                    try:
+                        self.fout.write( "resolving arxiv ... %s\n" %pid)
+                    except:
+                        self.out.write("resolving arxiv...\n")
+                    if pid in self.resolved_pids:
+                        if self.resolved_pids[pid] == 1:
+                            okrels.append(rel)
+                        continue
+                    title, abstract, typology = self.r.resolvearxiv(pid)
+                    provenance.append('arxiv')
+
+                elif id_type == 'pmid':
+                    try:
+                        self.fout.write( "resolving pmid ... %s \n" %pid)
+                    except:
+                        self.fout.write("resolving pmid ... %s \n")
+                    if pid in self.resolved_pids:
+                        if self.resolved_pids[pid] == 1:
+                            okrels.append(rel)
+                        continue
+                    title, abstract, typology = self.r.resolvepubmed(pid)
+                    provenance.append('pubmed')
+
+                if typology != '':
+                    okrels.append(rel)
+                    #self.fout.write("resolved pmid \n")
+                    self.fout.write("writing document to mongo \n")
+                    self.mongo_db.writeDocument(pid, typology, abstract, title, id_type, provenance,relation_type,from_id,self.worker_number)
+                    self.resolved_pids[pid] = 1
+                else:
+                    self.fout.write("not resolved pid=%s with pid type=%s\n"%(pid,id_type))
+                    self.resolved_pids[pid] = 0
+
+            except Exception as e:
+                self.logger.exception("Worker %i Problems resolving %s of type %s"%(self.worker_number,pid,id_type))
+        #print okrels
+        return okrels
+
+
+    def worker(self,q,index,numberOfWorkers):
+        self.worker_number=index
+        self.number_of_workers=numberOfWorkers
+
+
+        # print "Reading already resolved pid for worker %i"%self.worker_number
+        # self.diff_dois = self.mongo_db.getDataciteDois(-1)
+        # self.diff_dois.update(self.mongo_db.getResolvedDois(-1))
+        # print " done... for worker %i"%self.worker_number
+        self.fout = open("worker_%i.txt"%index,'a')
+        # self.out.write("loading already resolved pids... ")
+        # self.resolved_pids = self.mongo_db.loadResolved(self.worker_number)
+        # self.out.write("  loaded " + str(len(self.resolved_pids)))
+        count = 0
+        while True:
+            line = q.get()
+            count +=1
+            if not type(line) is list:
+                if(int(line))<self.number_of_workers:
+                    q.put(str(int(line) + 1))
+
+                q.task_done()
+
+                self.fout.write( 'Done Worker %i number %i'%(self.worker_number, count))
+                return
+
+            ret = line[1]
+            ide = line[0]
+            try:
+                self.fout.write( "worker %i, ide %s\n"%(self.worker_number,ide))
+            except:
+                self.fout.write("worker %i, ide encoding problems "%self.worker_number)
+
+            self.fout.flush()
+            okrels = self.resolve(ret['rels'],ide)
+
+            ret['rels']=okrels
+            #resolved += len(okrels)
+                #resolve(ret['relations'])
+            #self, pid, info, pid_type="doi", coll_number = -1):
+            self.fout.write("writing in mongo datacite relation \n\n")
+            #self.fout.flush()
+            self.mongo_db.writeDataciteDocument(ide,ret,"doi",self.worker_number)
+            self.resolved_pids[ide] = 1
+
+            q.task_done()
