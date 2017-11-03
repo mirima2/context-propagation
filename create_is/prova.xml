@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8" ?><?xml-stylesheet type="text/xsl" href="xsl/oaitohtml.xsl"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2017-10-30T08:23:44Z</responseDate>
+    <request verb="ListRecords"
+        resumptionToken="1509283274622,0001-01-01T00:00:00Z,9999-12-31T23:59:59Z,2195700,null,datacite"
+        >http://oai.datacite.org/oai</request>
+    <ListRecords>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6714729</identifier>
+                <datestamp>2015-09-03T07:11:03Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720035</identifier>
+                <datestamp>2015-09-03T07:13:26Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720107</identifier>
+                <datestamp>2015-09-03T07:13:46Z</datestamp>
+                <setSpec>DK</setSpec>
+                <setSpec>DK.GBIF</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.15468/dl.5pwzz1</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>occdownload gbif.org</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>GBIF Occurrence Download</title>
+                    </titles>
+                    <publisher>The Global Biodiversity Information Facility</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject xml:lang="eng">GBIF</subject>
+                        <subject xml:lang="eng">biodiversity</subject>
+                        <subject xml:lang="eng">species occurrences</subject>
+                    </subjects>
+                    <dates>
+                        <date dateType="Created">2015-09-03</date>
+                        <date dateType="Updated">2015-09-03</date>
+                    </dates>
+                    <resourceType resourceTypeGeneral="Dataset"/>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="GBIF"
+                            >0001530-150831095807960</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.1594/pangaea.818322</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>0</size>
+                    </sizes>
+                    <formats>
+                        <format>Darwin Core Archive</format>
+                    </formats>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/licenses/by-nc/4.0">The data
+                            included in this download are provided to the user under a Creative
+                            Commons BY-NC 4.0 license which means that you are free to use, share,
+                            and adapt the data provided that you give reasonable and appropriate
+                            credit (attribution) and that you do not use the material for commercial
+                            purposes (non-commercial). Data from some individual datasets included
+                            in this download may be licensed under less restrictive terms; review
+                            the details below.</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Abstract" xml:lang="eng">A dataset containing
+                            8 species occurrences available in GBIF matching the query: DatasetKey:
+                            (Table 1) Proportion of Toxoplasma gondii seropositive arctic foxes
+                            (Alopex lagopus) by age group and geographic area. The dataset includes
+                            8 records from 1 constituent datasets: 8 records from (Table 1)
+                            Proportion of Toxoplasma gondii seropositive arctic foxes (Alopex
+                            lagopus) by age group and geographic area.</description>
+                    </descriptions>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720109</identifier>
+                <datestamp>2015-09-03T07:17:10Z</datestamp>
+                <setSpec>DK</setSpec>
+                <setSpec>DK.GBIF</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.15468/dl.pf9up7</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>occdownload gbif.org</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>GBIF Occurrence Download</title>
+                    </titles>
+                    <publisher>The Global Biodiversity Information Facility</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject xml:lang="eng">GBIF</subject>
+                        <subject xml:lang="eng">biodiversity</subject>
+                        <subject xml:lang="eng">species occurrences</subject>
+                    </subjects>
+                    <dates>
+                        <date dateType="Created">2015-09-03</date>
+                        <date dateType="Updated">2015-09-03</date>
+                    </dates>
+                    <resourceType resourceTypeGeneral="Dataset"/>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="GBIF"
+                            >0001531-150831095807960</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/lwu4fj</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/77rmwd</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/tsrjm0</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/ab3s5x</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/ckcdpy</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/okq0w0</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/qxy4mc</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/2rlrvh</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/djzgie</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/a3woj7</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/kkgkne</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/h7rqo9</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/n4zgxw</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/wu3poe</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/dipjcr</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/e7susi</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>0</size>
+                    </sizes>
+                    <formats>
+                        <format>Darwin Core Archive</format>
+                    </formats>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/licenses/by-nc/4.0">The data
+                            included in this download are provided to the user under a Creative
+                            Commons BY-NC 4.0 license which means that you are free to use, share,
+                            and adapt the data provided that you give reasonable and appropriate
+                            credit (attribution) and that you do not use the material for commercial
+                            purposes (non-commercial). Data from some individual datasets included
+                            in this download may be licensed under less restrictive terms; review
+                            the details below.</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Abstract" xml:lang="eng">A dataset containing
+                            231 species occurrences available in GBIF matching the query: TaxonKey:
+                            Hypsignathus monstrosus H. Allen, 1861 HasCoordinate: true
+                            HasGeospatialIssue: false. The dataset includes 231 records from 16
+                            constituent datasets: 19 records from Mammals housed at MHNG, Geneva. 8
+                            records from LACM Vertebrate Collection. 6 records from Rapid Assessment
+                            Program (RAP) Biodiversity Survey Database. 8 records from iNaturalist
+                            research-grade observations. 14 records from Macaulay Library Audio and
+                            Video Collection. 3 records from Zoological Museum Amsterdam, University
+                            of Amsterdam (NL) – Mammalia. 17 records from RBINS collections. 37
+                            records from Mammalogy Collection - Royal Ontario Museum. 9 records from
+                            National Biodiversity Data Bank. Observation records, 1900-2014. 1
+                            records from KUBI Mammalogy Collection. 24 records from CUMV Mammal
+                            Collection (Arctos). 2 records from Census of the animals of Benin. 8
+                            records from Field Museum of Natural History (Zoology) Mammal
+                            Collection. 8 records from AMNH Mammal Collections. 65 records from NMNH
+                            occurrence DwC-A. 2 records from Australian Museum provider for
+                            OZCAM.</description>
+                    </descriptions>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720033</identifier>
+                <datestamp>2015-09-03T07:17:22Z</datestamp>
+                <setSpec>CERN</setSpec>
+                <setSpec>CERN.ZENODO</setSpec>
+            </header>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720023</identifier>
+                <datestamp>2015-09-03T07:17:23Z</datestamp>
+                <setSpec>CERN</setSpec>
+                <setSpec>CERN.ZENODO</setSpec>
+            </header>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720019</identifier>
+                <datestamp>2015-09-03T07:17:25Z</datestamp>
+                <setSpec>CERN</setSpec>
+                <setSpec>CERN.ZENODO</setSpec>
+            </header>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720017</identifier>
+                <datestamp>2015-09-03T07:17:29Z</datestamp>
+                <setSpec>CERN</setSpec>
+                <setSpec>CERN.ZENODO</setSpec>
+            </header>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720110</identifier>
+                <datestamp>2015-09-03T07:18:37Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.1418.6728</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Carlos Cámara Menoyo</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Producción colaborativa entre iguales y ciudad: una
+                            aproximación</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>es</language>
+                    <resourceType resourceTypeGeneral="Text">Conference Paper</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720112</identifier>
+                <datestamp>2015-09-03T07:22:32Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.2467.2484</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Maziar Izadi</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Amit K Sanyal</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Ehsan Samiei</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Sasi P Viswanathan</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Discrete-time Rigid Body Attitude State Estimation based on the
+                            Discrete Lagrange-d'Alembert Principle</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Conference Paper</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720113</identifier>
+                <datestamp>2015-09-03T07:24:47Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.4564.4004</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Peter Louis Antonelli</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Solange F. Rutz</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Rinaldo da Silva Junior</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>tese_rinaldo</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720115</identifier>
+                <datestamp>2015-09-03T07:27:40Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.4040.1125</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Md D Rahaman</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Toshifumi Iimori</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Tatsuo Hamada</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Nobuhiro Ohta</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Characterization of Optoelectronic Devices based on the Methylene
+                            Linked Compound of Pyrene</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>id</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720116</identifier>
+                <datestamp>2015-09-03T07:30:09Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2006.1465</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>ประกาศ ปาวา ทองสว่าง</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อาณาจักรวิถีชีวิต : สถานสงเคราะห์วังทอง จังหวัดพิษณุโลก /</title>
+                    </titles>
+                    <subjects>
+                        <subject>สถานสงเคราะห์วังทอง</subject>
+                    </subjects>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ISBN"
+                            >974-16-2586-3</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2549</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720117</identifier>
+                <datestamp>2015-09-03T07:30:11Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2009.1059</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>น้ำเย็น ศิริพัฒน์</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อาทราซีนตกค้างในดินตะกอนในพื้นที่ลุ่มน้ำห้วยกะโปะ อำเภอน้ำหนาว
+                            จังหวัดเพชรบูรณ์</title>
+                    </titles>
+                    <subjects>
+                        <subject>อาทราซีน</subject>
+                        <subject>ยากำจัดวัชพืช</subject>
+                        <subject>ตะกอนลำน้ำ</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>นิพนธ์ ตังคณานุรักษ์,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2552</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720118</identifier>
+                <datestamp>2015-09-03T07:30:13Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2008.823</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>ตุลยา กลับแก้ว</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อายุการเก็บรักษาและประสิทธิภาพของผลิตภัณฑ์ Bacillus thuringiensis
+                            IC590 ในการควบคุมหนอนกระทู้ผัก Spodoptera litura [Fabricius] /</title>
+                    </titles>
+                    <subjects>
+                        <subject>หนอนกระทู้ผัก</subject>
+                        <subject>บาซิลลัส เธอรินจิเอนซิสเจซี590</subject>
+                    </subjects>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2551</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720119</identifier>
+                <datestamp>2015-09-03T07:30:16Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2010.915</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>อภิรดี สุวรรณชัยรบ</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อายุเมล็ดที่มีผลต่อความสามารถในการเก็บรักษาของเมล็ดพันธุ์สบู่ดำ</title>
+                    </titles>
+                    <subjects>
+                        <subject>สบู่ดำ [พืช]</subject>
+                        <subject>สบู่ดำ [พืช]</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>สุนันทา จันทกูล,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2553</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720120</identifier>
+                <datestamp>2015-09-03T07:30:18Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2006.1466</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>ประภาพรรณ ศรีไทย</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อารมณ์ขณะทำงาน :
+                            กรณีศึกษาพนักงานบริการลูกค้าของบริษัทขายตรงแบบหลายชั้นแห่งหนึ่ง
+                            /</title>
+                    </titles>
+                    <subjects>
+                        <subject>อารมณ์</subject>
+                        <subject>พนักงานบริษัท</subject>
+                    </subjects>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ISBN"
+                            >974-16-1850-6</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2549</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720121</identifier>
+                <datestamp>2015-09-03T07:30:20Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2011.784</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>ปิยะดา เกตุเรืองโรจน์</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อำนาจทางการตลาดของโรงสีในตลาดข้าวหอมมะลิ</title>
+                    </titles>
+                    <subjects>
+                        <subject>ข้าวหอมมะลิ</subject>
+                        <subject>โรงสีข้าว</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>รวิสสาข์ สุชาโต,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2554</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720122</identifier>
+                <datestamp>2015-09-03T07:30:22Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2010.916</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>อาทิตย์ ปัญญาเมา</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อิทธิพลของ 2, 4-dichlorophenoxyacetic acid
+                            ต่อการเหนี่ยวนำให้เกิดการกลายพันธุ์กับเฟินข้าหลวงหลังลายที่เลี้ยงในสภาพปลอดเชื้อ</title>
+                    </titles>
+                    <subjects>
+                        <subject>เฟินข้าหลวงหลังลาย</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>ม.ล.จารุพันธ์ ทองแถม,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2553</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720123</identifier>
+                <datestamp>2015-09-03T07:30:24Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2010.917</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>วิศิษ แซ่ลิ้ม</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อิทธิพลของกระแสไฟฟ้าในการดึงคลอไรด์อิออนด้วยวิธีทางไฟฟ้าเคมีในคอนกรีตเสริมเหล็ก</title>
+                    </titles>
+                    <subjects>
+                        <subject>โครงสร้างคอนกรีตเสริมเหล็ก</subject>
+                        <subject>คลอไรด์</subject>
+                        <subject>คอนกรีตเสริมเหล็ก</subject>
+                        <subject>กระแสไฟฟ้า</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>วันชัย ยอดสุดใจ,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2553</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720124</identifier>
+                <datestamp>2015-09-03T07:30:26Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2008.824</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>พิริยา เลิศมงคลนาม</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อิทธิพลของการทำหน้าที่ของครอบครัว
+                            การสนับสนุนทางสังคมและการเห็นคุณค่าในตนเองที่มีต่อคุณธรรมของวัยรุ่นจิตอาสา
+                            :</title>
+                    </titles>
+                    <subjects>
+                        <subject>ความนับถือตนเองในวัยรุ่น</subject>
+                        <subject>วัยรุ่น</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>งามสมัย ผิวเหลือง,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2551</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720125</identifier>
+                <datestamp>2015-09-03T07:30:28Z</datestamp>
+                <setSpec>NRCT</setSpec>
+                <setSpec>NRCT.DB1</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.14457/KU.the.2010.918</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>ฉัตราภรณ์ กงสิน</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>อิทธิพลของการทำหน้าที่ของครอบครัว และการมองโลกในแง่ดี
+                            ที่มีต่อความโกรธของวัยรุ่น :กรณีศึกษานักเรียนช่วงชั้นที่ 4
+                            ในสถานศึกษาสังกัดสำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน
+                            กรุงเทพมหานคร</title>
+                    </titles>
+                    <subjects>
+                        <subject>ความโกรธ</subject>
+                        <subject>ครอบครัว</subject>
+                        <subject>การมองโลกในแง่ดี</subject>
+                        <subject>ครอบครัว</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Researcher">
+                            <contributorName>งามลมัย ผิวเหลือง,</contributorName>
+                        </contributor>
+                    </contributors>
+                    <publisher>มหาวิทยาลัยเกษตรศาสตร์,</publisher>
+                    <publicationYear>2553</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720128</identifier>
+                <datestamp>2015-09-03T07:34:12Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.5088.6884</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Atilla M. Öner</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Keşfetmenin Mutluluğu - Fizikçi Richard Feynman ile Söyleşi
+                            (çeviri)</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>de</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720129</identifier>
+                <datestamp>2015-09-03T07:34:16Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.1090.9927</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Andre Kraak</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Sector skills councils in international perspective: in search of
+                            best practice</title>
+                    </titles>
+                    <publisher>University of the Witwatersrand</publisher>
+                    <publicationYear>2015</publicationYear>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720131</identifier>
+                <datestamp>2015-09-03T07:34:35Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.3188.1448</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Arun Kokane</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>STUDY OF SOME EPIDEMIOLOGICAL ASPECTS OF ADOLESCENT MOTHERS DELIVERED
+                            AT S.R.T.R. MEDICAL COLLEGE AND HOSPITAL, AMBAJOGAI</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720132</identifier>
+                <datestamp>2015-09-03T07:35:49Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.2139.5683</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Martin Srholec</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Přímé zahraniční investice v České republice : teorie a praxe v
+                            mezinárodním srovnání /</title>
+                    </titles>
+                    <publisher>Linde</publisher>
+                    <publicationYear>2004</publicationYear>
+                    <resourceType resourceTypeGeneral="Text">Book</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720114</identifier>
+                <datestamp>2015-09-03T07:35:57Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720133</identifier>
+                <datestamp>2015-09-03T07:36:03Z</datestamp>
+                <setSpec>DELFT</setSpec>
+                <setSpec>DELFT.TUDELFT</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI"
+                        >10.4233/uuid:e204277d-c334-49a2-8b2a-8a05cf603086</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Duz, B.</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Wave Generation, Propagation and Absorption in CFD Simulations of
+                            Free Surface Flows</title>
+                    </titles>
+                    <publisher>Delft University of Technology</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <resourceType resourceTypeGeneral="Text"> Dissertation </resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720134</identifier>
+                <datestamp>2015-09-03T07:36:03Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.4236.7203</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Caroline Le Boucher</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Paths of a social innovation : exchange networks knowledge in
+                            life-long learning</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6680822</identifier>
+                <datestamp>2015-09-03T07:39:18Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720135</identifier>
+                <datestamp>2015-09-03T07:40:55Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.1615.2804</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Stefano Limardi</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Il concetto di resilienza nel contesto infermieristico</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>it</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6687415</identifier>
+                <datestamp>2015-09-03T07:41:02Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.1640.6244</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Mariana Reginato</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>M. Celeste Varela</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Ana M. Cenzano</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>M. Virginia Luna</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>D. K. Gupta</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>J. M. Palma</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>F. J. Corpas</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Role of Polyphenols as Antioxidants in Native Species from Argentina
+                            Under Drought and Salinization</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720136</identifier>
+                <datestamp>2015-09-03T07:41:27Z</datestamp>
+                <setSpec>DK</setSpec>
+                <setSpec>DK.GBIF</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.15468/dl.c0crio</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>occdownload gbif.org</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>GBIF Occurrence Download</title>
+                    </titles>
+                    <publisher>The Global Biodiversity Information Facility</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject xml:lang="eng">GBIF</subject>
+                        <subject xml:lang="eng">biodiversity</subject>
+                        <subject xml:lang="eng">species occurrences</subject>
+                    </subjects>
+                    <dates>
+                        <date dateType="Created">2015-09-03</date>
+                        <date dateType="Updated">2015-09-03</date>
+                    </dates>
+                    <resourceType resourceTypeGeneral="Dataset"/>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="GBIF"
+                            >0001532-150831095807960</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/aomfnb</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/h25uz7</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/uc1apo</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/77rmwd</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/nekpou</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/lns1qm</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/a7zswp</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/ahiyvz</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/p5rupv</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/4e7jfl</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/dipjcr</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/ckcdpy</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>0</size>
+                    </sizes>
+                    <formats>
+                        <format>Darwin Core Archive</format>
+                    </formats>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/licenses/by-nc/4.0">The data
+                            included in this download are provided to the user under a Creative
+                            Commons BY-NC 4.0 license which means that you are free to use, share,
+                            and adapt the data provided that you give reasonable and appropriate
+                            credit (attribution) and that you do not use the material for commercial
+                            purposes (non-commercial). Data from some individual datasets included
+                            in this download may be licensed under less restrictive terms; review
+                            the details below.</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Abstract" xml:lang="eng">A dataset containing
+                            424 species occurrences available in GBIF matching the query: TaxonKey:
+                            Alcippe nipalensis (Hodgson, 1838) HasCoordinate: true
+                            HasGeospatialIssue: false. The dataset includes 424 records from 12
+                            constituent datasets: 148 records from EOD - eBird Observation Dataset.
+                            15 records from Vertebrate Zoology Division - Ornithology, Yale Peabody
+                            Museum. 1 records from naturgucker. 2 records from LACM Vertebrate
+                            Collection. 8 records from Ornithology Collection Passeriformes - Royal
+                            Ontario Museum. 200 records from UMMZ Birds Collection. 4 records from
+                            MVZ Egg and Nest Collection (Arctos). 8 records from Ornithology
+                            Collection Passeriformes - Royal Ontario Museum. 16 records from Museum
+                            of Comparative Zoology, Harvard University. 4 records from Literature
+                            based species occurrence data of birds of North-East India. 15 records
+                            from NMNH occurrence DwC-A. 3 records from Macaulay Library Audio and
+                            Video Collection.</description>
+                    </descriptions>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720138</identifier>
+                <datestamp>2015-09-03T07:47:31Z</datestamp>
+                <setSpec>DK</setSpec>
+                <setSpec>DK.GBIF</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.15468/dl.uwook4</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>occdownload gbif.org</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>GBIF Occurrence Download</title>
+                    </titles>
+                    <publisher>The Global Biodiversity Information Facility</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject xml:lang="eng">GBIF</subject>
+                        <subject xml:lang="eng">biodiversity</subject>
+                        <subject xml:lang="eng">species occurrences</subject>
+                    </subjects>
+                    <dates>
+                        <date dateType="Created">2015-09-03</date>
+                        <date dateType="Updated">2015-09-03</date>
+                    </dates>
+                    <resourceType resourceTypeGeneral="Dataset"/>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="GBIF"
+                            >0001533-150831095807960</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/c4w4co</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.5519/0002965</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/nc6rxy</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/dlwwhz</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>17612</size>
+                    </sizes>
+                    <formats>
+                        <format>Darwin Core Archive</format>
+                    </formats>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/licenses/by-nc/4.0">The data
+                            included in this download are provided to the user under a Creative
+                            Commons BY-NC 4.0 license which means that you are free to use, share,
+                            and adapt the data provided that you give reasonable and appropriate
+                            credit (attribution) and that you do not use the material for commercial
+                            purposes (non-commercial). Data from some individual datasets included
+                            in this download may be licensed under less restrictive terms; review
+                            the details below.</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Abstract" xml:lang="eng">A dataset containing
+                            7 species occurrences available in GBIF matching the query: TaxonKey:
+                            Asplenium aegaeum Lovis, Reichst. &amp; Greuter in Reichst., Lovis,
+                            Greuter &amp; Zaffran. The dataset includes 7 records from 4 constituent
+                            datasets: 3 records from Lund Botanical Museum (LD). 2 records from
+                            Natural History Museum (London) Collection Specimens. 1 records from
+                            Vascular plants collection (P) of the Muséum national d'Histoire
+                            Naturelle (MNHN - Paris). 1 records from Herbarium
+                            Berolinense.</description>
+                    </descriptions>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720139</identifier>
+                <datestamp>2015-09-03T07:48:30Z</datestamp>
+                <setSpec>DK</setSpec>
+                <setSpec>DK.GBIF</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.15468/dl.rwgwt3</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>occdownload gbif.org</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>GBIF Occurrence Download</title>
+                    </titles>
+                    <publisher>The Global Biodiversity Information Facility</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject xml:lang="eng">GBIF</subject>
+                        <subject xml:lang="eng">biodiversity</subject>
+                        <subject xml:lang="eng">species occurrences</subject>
+                    </subjects>
+                    <dates>
+                        <date dateType="Created">2015-09-03</date>
+                        <date dateType="Updated">2015-09-03</date>
+                    </dates>
+                    <resourceType resourceTypeGeneral="Dataset"/>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="GBIF"
+                            >0001534-150831095807960</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/pal1lb</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/zhmy7q</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/uc1apo</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/ul946t</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/mug7kr</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/cxbsrs</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/5sl7sh</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/yo3mmu</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.5519/0002965</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/xogtn8</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/omae84</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/c4w4co</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/x3te8g</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/eepzxm</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.5886/rzav8bu2</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/fqykeb</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/nc6rxy</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="DOI" relationType="References"
+                            >10.15468/uhrhsz</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>66784</size>
+                    </sizes>
+                    <formats>
+                        <format>Darwin Core Archive</format>
+                    </formats>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/licenses/by-nc/4.0">The data
+                            included in this download are provided to the user under a Creative
+                            Commons BY-NC 4.0 license which means that you are free to use, share,
+                            and adapt the data provided that you give reasonable and appropriate
+                            credit (attribution) and that you do not use the material for commercial
+                            purposes (non-commercial). Data from some individual datasets included
+                            in this download may be licensed under less restrictive terms; review
+                            the details below.</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Abstract" xml:lang="eng">A dataset containing
+                            142 species occurrences available in GBIF matching the query: TaxonKey:
+                            Asplenium lepidum Pr.. The dataset includes 142 records from 18
+                            constituent datasets: 5 records from Naturalis Biodiversity Center (NL)
+                            - Botany Leiden. 1 records from Herbario de la Universidad de Sevilla,
+                            SEV. 1 records from naturgucker. 1 records from Herbario de Plantas
+                            Vasculares de la Universidad de Salamanca: SALA. 4 records from Real
+                            Jardín Botánico (Madrid), Vascular Plant Herbarium (MA). 3 records from
+                            Inventaire National du Patrimoine Naturel : Flore protégée du Dauphiné.
+                            1 records from Natural History Museum, Vienna - Herbarium W. 3 records
+                            from Phanerogamic Botanical Collections (S). 6 records from Natural
+                            History Museum (London) Collection Specimens. 1 records from
+                            Actualisation de la cartographie des Ptéridophytes de France et d'Europe
+                            occidentale. 27 records from INPN - Données flore des CBN agrégées par
+                            la FCBN. 7 records from Lund Botanical Museum (LD). 8 records from
+                            Phytochorologie des départements français. 5 records from Tiroler
+                            Landesmuseum Ferdinandeum. 1 records from Marie-Victorin Herbarium (MT).
+                            2 records from Herbarium specimens of the Muséum d'Histoire Naturelle of
+                            Aix-en-Provence (AIX). 64 records from Vascular plants collection (P) of
+                            the Muséum national d'Histoire Naturelle (MNHN - Paris). 2 records from
+                            Inventaire National du Patrimoine Naturel : Espèces Végétales Menacées
+                            de France métropolitaine.</description>
+                    </descriptions>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720140</identifier>
+                <datestamp>2015-09-03T07:48:57Z</datestamp>
+                <setSpec>TIB</setSpec>
+                <setSpec>TIB.UBFR</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.6094/UNIFR/10223</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Skala, Dominik</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Eben, Petr</title>
+                    </titles>
+                    <publisher>Universität Freiburg</publisher>
+                    <publicationYear>2008</publicationYear>
+                    <subjects>
+                        <subject subjectScheme="ddc">780</subject>
+                    </subjects>
+                    <language>ger</language>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="doi"
+                            >10.6094/UNIFR/10223</alternateIdentifier>
+                    </alternateIdentifiers>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720106</identifier>
+                <datestamp>2015-09-03T07:50:24Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.2729.3923</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Ismail Anas</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Andi Musdariah</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>Naely Muchtar</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>From ESA to ESCAPE: A Modified Model for Teaching English in
+                            Vocational Higher Education</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720145</identifier>
+                <datestamp>2015-09-03T07:51:15Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.3450.2887</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Muayyad Ahmad</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>AOSPINE PRESENTATIONS ON SCIENTIFIC RESEARCH METHODS</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Conference Paper</resourceType>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720146</identifier>
+                <datestamp>2015-09-03T07:51:46Z</datestamp>
+                <setSpec>TIB</setSpec>
+                <setSpec>TIB.UBFR</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.6094/UNIFR/10190</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Skala, Dominik</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Volk, Hermann</title>
+                    </titles>
+                    <publisher>Universität Freiburg</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <subjects>
+                        <subject subjectScheme="ddc">230</subject>
+                    </subjects>
+                    <contributors>
+                        <contributor contributorType="Other">
+                            <contributorName>Institut für Praktische Theologie</contributorName>
+                        </contributor>
+                    </contributors>
+                    <language>ger</language>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="doi"
+                            >10.6094/UNIFR/10190</alternateIdentifier>
+                    </alternateIdentifiers>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>oai:oai.datacite.org:6720143</identifier>
+                <datestamp>2015-09-03T07:52:38Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720147</identifier>
+                <datestamp>2015-09-03T07:52:46Z</datestamp>
+                <setSpec>RG</setSpec>
+                <setSpec>RG.RG</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.13140/RG.2.1.2401.7120</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Mohar S.Meena</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>K.M.Singh</creatorName>
+                        </creator>
+                        <creator>
+                            <creatorName>H.M.Meena</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Gendered Approach to Climate Resilient Agriculture: Technology and
+                            Policy-led Options</title>
+                    </titles>
+                    <publisher>Unpublished</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <language>en</language>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720148</identifier>
+                <datestamp>2015-09-03T07:53:16Z</datestamp>
+                <setSpec>TIB</setSpec>
+                <setSpec>TIB.UBFR</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.6094/UNIFR/10222</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>Skala, Dominik</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Spital, Hermann Josef</title>
+                    </titles>
+                    <publisher>Universität Freiburg</publisher>
+                    <publicationYear>2011</publicationYear>
+                    <subjects>
+                        <subject subjectScheme="ddc">230</subject>
+                    </subjects>
+                    <language>ger</language>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="doi"
+                            >10.6094/UNIFR/10222</alternateIdentifier>
+                    </alternateIdentifiers>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720149</identifier>
+                <datestamp>2015-09-03T07:54:15Z</datestamp>
+                <setSpec>FIGSHARE</setSpec>
+                <setSpec>FIGSHARE.ARS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.6084/M9.FIGSHARE.1209284</identifier>
+                    <titles>
+                        <title>Quality parameterization of digital teaching aids from the
+                            perspective of a teacher</title>
+                    </titles>
+                    <publisher>Figshare</publisher>
+                    <publicationYear>2015</publicationYear>
+                    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+                    <rightsList>
+                        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/"
+                            >CC-0</rights>
+                    </rightsList>
+                    <creators>
+                        <creator>
+                            <creatorName>Stefan Karolcik</creatorName>
+                        </creator>
+                    </creators>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720150</identifier>
+                <datestamp>2015-09-03T07:54:59Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033602</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Wren's Nest Limestone Mines, Dudley: Level I Survey: archaeological
+                            survey report</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2008</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >4584</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-55661</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>52.52584 -2.094274</geoLocationPoint>
+                            <geoLocationPlace>DUDLEY</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720151</identifier>
+                <datestamp>2015-09-03T07:55:00Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033603</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>East Hill, Hastings, East Sussex: a Landscape Survey and
+                            Investigation: Survey Report</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2008</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >4585</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-53500</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>50.85927 0.601421</geoLocationPoint>
+                            <geoLocationPlace>HASTINGS</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720152</identifier>
+                <datestamp>2015-09-03T07:55:01Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033604</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Dispersed Settlements on the Southern Mendip Escarpment: the
+                            earthwork evidence</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2008</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >5317</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-55968</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>51.247801 -2.729196</geoLocationPoint>
+                            <geoLocationPlace>RODNEY STOKE</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720153</identifier>
+                <datestamp>2015-09-03T07:55:02Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033605</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Hoar Moor and Codsend Moors, Exford and Cutcombe, Somerset Exmoor
+                            National Park: historic landscape analysis</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2009</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >5318</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-64329</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>51.204064 -2.187445</geoLocationPoint>
+                            <geoLocationPlace>CUTCOMBE</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720154</identifier>
+                <datestamp>2015-09-03T07:55:03Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033606</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Roman Lode, Burcombe, Exmoor, North Devon: pollen analysis of blanket
+                            peat deposits: environmental studies report</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2009</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >5319</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-64354</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>51.129016 -3.782873</geoLocationPoint>
+                            <geoLocationPlace>EXMOOR</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720155</identifier>
+                <datestamp>2015-09-03T07:55:03Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033607</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>Grandy's Knowe, Bardon Mill, Northumberland: tree-ring analysis of
+                            timbers: scientific dating report</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2009</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >5475</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-64371</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN
+                            1749-8775)</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>54.999791 -2.343862</geoLocationPoint>
+                            <geoLocationPlace>BARDON MILL</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:oai.datacite.org:6720156</identifier>
+                <datestamp>2015-09-03T07:55:04Z</datestamp>
+                <setSpec>BL</setSpec>
+                <setSpec>BL.ADS</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-3"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+                    <identifier identifierType="DOI">10.5284/1033608</identifier>
+                    <creators>
+                        <creator>
+                            <creatorName>English Heritage Research Department</creatorName>
+                        </creator>
+                    </creators>
+                    <titles>
+                        <title>The Roman Fort at Brough, Bainbridge: the examination of metal
+                            working debris: technology report</title>
+                    </titles>
+                    <publisher>Archaeology Data Service</publisher>
+                    <publicationYear>2009</publicationYear>
+                    <subjects>
+                        <subject>Archaeology</subject>
+                        <subject>Grey Literature</subject>
+                    </subjects>
+                    <language>en</language>
+                    <resourceType resourceTypeGeneral="Text">Report</resourceType>
+                    <alternateIdentifiers>
+                        <alternateIdentifier alternateIdentifierType="ADS Grey Lit ID"
+                            >5476</alternateIdentifier>
+                        <alternateIdentifier alternateIdentifierType="OASIS ID"
+                            >englishh2-64333</alternateIdentifier>
+                    </alternateIdentifiers>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf"
+                            >http://archaeologydataservice.ac.uk/archives/view/greylit/</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <sizes>
+                        <size>1 pdf file</size>
+                    </sizes>
+                    <formats>
+                        <format>PDF</format>
+                    </formats>
+                    <rightsList>
+                        <rights
+                            rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess"
+                            >ADS Terms and Conditions of reuse apply</rights>
+                    </rightsList>
+                    <descriptions>
+                        <description descriptionType="Other">A4 heat-bound report (ISSN 1749-8775);
+                            printed from pdf.</description>
+                    </descriptions>
+                    <geoLocations>
+                        <geoLocation>
+                            <geoLocationPoint>54.306467 -2.096771</geoLocationPoint>
+                            <geoLocationPlace>BAINBRIDGE</geoLocationPlace>
+                        </geoLocation>
+                    </geoLocations>
+                </resource>
+            </metadata>
+        </record>
+        <resumptionToken expirationDate="2017-10-30T09:23:53Z" completeListSize="11325949" cursor="2195700">1509351833917,0001-01-01T00:00:00Z,9999-12-31T23:59:59Z,2195750,null,datacite</resumptionToken>
+    </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,35 @@
+
+import pymongo
+import hashlib
+import sys
+import re
+sys.path.insert(0, '../')
+from utils import *
+
+class MongoConnector:
+    def __init__(self, host):  # ,collection_name):
+        self.client = pymongo.MongoClient(host, 27017)
+
+
+    def write_document(self,db_name='DLIDB',coll_name='datacite_relations',document={},merge = True):
+        documents = coll_name.find({}, {"_id": 1})
+        if documents is None:
+            self.client[db_name][coll_name].insert_one(document)
+        else:
+            if merge:
+                if 'datacite' in coll_name:
+                    for gdoc in documents:
+                        dic = updateIfDifferent(gdoc, document, "abstracts")
+                        if dic != {}:
+                            self.client[db_name][coll_name].update_one({'_id': document['_id']},
+                                                                                        {'$set': dic}, upsert=False)
+
+
+    def find_document(self, db_name='DLIDB', coll_name='datacite_relations',id=''):
+        db=self.client[db_name]
+        collection = db[coll_name]
+        doc = collection.find_one({'_id':id})
+        return doc
+
+m = MongoConnector('localhost')
+print m.find_document(db_name='crossRef',coll_name='dump',id='10.123/pangaea.bho')
