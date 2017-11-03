@@ -9,9 +9,11 @@ import sys
 import glob
 import gzip
 import json
+from mongo_connector import *
 
 worker_number = 20
-q = Queue(maxsize=worker_number*5)
+q = Queue(maxsize=worker_number)
+q_mongo = Queue(maxsize=worker_number*5)
 harvester = Harvester()
 
 def import_page(page):
@@ -55,7 +57,7 @@ def build_is_file(path='/data/miriam/context-propagation/datacite_dump'):
 def run():
     for i in range(worker_number):
         wr = Builder()
-        w = Thread(target=wr.run,args=(q,i,worker_number,))
+        w = Thread(target=wr.run,args=(q,i,worker_number,q_mongo,))
         w.daemon = True
         w.start()
 
@@ -68,13 +70,17 @@ def run():
 
 
 def run_test():
+    wm = MongoConnector('localhost')
+    w = Thread(target=wm.run,args=(q_mongo,))
+    w.daemon = True
+    w.start()
     wr = Builder()
-    w = Thread(target=wr.run,args=(q,1,1,))
+    w = Thread(target=wr.run,args=(q,1,1,q_mongo,))
     w.daemon = True
     w.start()
     f = gzip.open('/data/miriam/context-propagation/datacite_dump/datacite_native.gz')
     i = 0
-    for i in range(5000):
+    for i in range(15000):
         line = f.readline()
         try:
             root = parseline(line)
@@ -86,7 +92,7 @@ def run_test():
 
         q.put(dic)
     q.put(1)
-    q.join()
+
 
 if __name__ == '__main__':
     if sys.argv[1] == 'TEST':

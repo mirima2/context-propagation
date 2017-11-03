@@ -74,19 +74,23 @@ def isin(r,rels):
 def updateIfDifferent(toupdate,doc,abs="abs"):
 
     dic = {}
+    try:
+        if toupdate['type'] != doc["type"] and doc["type"] == 'publication':
+            dic['type'] = 'publication'
 
-    if toupdate['type'] != doc["type"] and doc["type"] == 'publication':
-        dic['type'] = 'publication'
-
-    if toupdate['title'] == [] and doc['title'] != []:
-        dic['title'] = doc['title']
-    if toupdate['abstracts'] == [] and doc[abs] != []:
-        dic['abstracts'] = doc[abs]
-    rel = findrelationset(toupdate['rels'], doc['rels'])
-    if rel != []:
-        dic['rels']=rel
-    return dic
-
+        if toupdate['title'] == [] and doc['title'] != []:
+            dic['title'] = doc['title']
+        if toupdate['abstracts'] == [] and doc[abs] != []:
+            dic['abstracts'] = doc[abs]
+        rel = findrelationset(toupdate['rels'], doc['rels'])
+        if rel != []:
+            dic['rels']=rel
+        return dic
+    except Exception as e:
+        print e
+        print 'TO UPDATE ', toupdate
+        print 'DOCUMENT ', doc
+        return {}
 
 def resource_identifier(pid, pid_type):
     m = hashlib.md5()

@@ -34,8 +34,8 @@ class ESConnector:
         for hit in response.hits:
             print hit.__dict__
 
-
-    def write_document(self, pid, typology, abstracts, title, pid_type, provenance,  found=1):
+#(pid, typology, abstract, title, id_type, provenance,found)
+    def write_document(self, pid, typology, abstracts, title, pid_type, provenance,  found):
         post = {"pid_type": pid_type, "resource_identifier": resource_identifier(pid, pid_type),
                 "title": title, "type": typology, "abstracts": abstracts, "provenance": provenance,"found":found}
         try:
@@ -52,8 +52,9 @@ class ESConnector:
             return None
 
         return res
-
+#
 # x = ESConnector(["192.168.100.108", "192.168.100.109", "192.168.100.106", "192.168.100.107"])
+# print x.is_in('pids','known','prova')
 # # # print x.get('10.1016/j.epsl.2014.08.007')['found']
 # # # print x.item_by_id("b45e0278664788c752a83a87274a75b6","resolved")
 # # #print  x.pid_type("10.1594/pangaea.818322")
